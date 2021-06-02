@@ -1,0 +1,184 @@
+body {
+	background:white !important;
+}
+
+section {
+	font-size:1.1em !important;
+	line-height:1.6em !important
+}
+
+article {
+	font-size:1.1em !important;
+}
+
+.nav li {
+	padding:3px !important;
+	margin:0 3px;
+	display:inline-block !important;
+	font-family:'Open sans', sans-serif !important;
+}
+
+@media (max-width:480px) {
+	.nav {
+		display:none !important;
+	}
+
+	.h1 {
+		font-size:2em !important;
+	}
+	#logo img {
+		height:30px !important;
+		width:auto !important;
+	}
+	header {
+		padding-bottom:10px;
+		margin-top:5px;
+	}
+}
+
+.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus {
+	background:black !important;
+	color:#ffe241 !important;
+	text-decoration:none !important;
+}
+
+nav {
+	margin-left: 30px !important;
+	margin-top:-5px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 10px !important;
+	font-size:1.2em;
+	color:#ffe241 !important;
+	color:white !important;
+}
+
+.nav li ul.sub-menu {
+	background:black !important;
+	border:0;
+	position:relative;
+}
+
+.nav li ul.sub-menu li a {
+	border:0 !important;
+}
+
+.nav li ul.sub-menu li a:hover {
+	border:0 !important;
+	text-decoration:none !important;
+	background: #ffe241 !important;
+	color:black !important;
+}
+
+#logo {
+	margin:0px 0 0 !important;
+}	
+
+
+.header-search {
+	float:right;
+	margin-top:-20px;
+}
+
+header input, button {
+	height:25px !important;
+	float:left !important;
+}
+header input {
+	width:75% !important;
+}
+
+.post-edit-link {
+	color:black !important;
+	background:whitesmoke;
+	padding:3px 6px;
+	border:1px solid #ccc;
+	margin:3% 4%;
+}
+
+.pswp button.pswp__button, .pswp button.pswp__button:hover {
+	float:right !important;
+	height:30px !important;
+}
+
+.hentry {
+	border:0 !important;
+}
+
+.sidebar {
+	background:whitesmoke !important;
+}
+
+@media (max-width: 767px) {
+	html {
+		margin-top:0 !important;
+	}
+
+	.header-search {
+	    display:none;
+	}
+}
+
+body {
+	color:black !important;
+}
+
+ p {
+	font-size:1.1em !important;
+	line-height:1.8em !important;
+	color:black;
+	font-family:'Open sans', 'Helvetica Neue', sans-serif;
+}
+
+.h1 {
+	font-size:2.5em !important;
+}
+
+h1 a, h2 a {
+	color:black !important;
+}
+
+.col-sm-8, .col-sm-4 {
+	padding:0 !important;
+}
+
+.posts {
+	border:0 !important;
+	padding:2% 0 !important;
+	margin:0 !important;
+	border-bottom:1px solid #ccc !important;
+}
+
+.posts p {
+	max-width:600px !important;
+}
+
+.col-sm-8 {
+	padding:0 !important;
+}
+
+.hentry header {
+	padding-bottom:0 !important;
+}
+
+section {
+	padding-top:0 !important;
+}
+
+.page-numbers {
+	line-height: 1em;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0.75em !important;
+    min-width: 1em;
+    display: block;
+    color: #2980b9 !important;
+}
+
+.page-numbers:hover a {
+	color:white !important;
+}
+
