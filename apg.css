@@ -6,6 +6,11 @@ article {
 	padding:0 10px 15px;
 }
 
+.psgal {
+	display:flex;
+	flex-wrap:wrap;
+}
+
 figcaption {
 padding:0 10px 15px !important;
 }
